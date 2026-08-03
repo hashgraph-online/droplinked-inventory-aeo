@@ -1,0 +1,48 @@
+{
+  "name": "droplinked-inventory-aeo",
+  "version": "0.1.0",
+  "description": "Connect Codex to Droplinked inventory for evidence-backed AEO briefs, catalog discovery, and merchant inventory analysis.",
+  "author": {
+    "name": "droplinked",
+    "email": "ali@droplinked.com",
+    "url": "https://droplinked.com"
+  },
+  "homepage": "https://docs.droplinked.com/agentic/mcp-server",
+  "repository": "https://github.com/hashgraph-online/droplinked-inventory-aeo",
+  "license": "MIT",
+  "keywords": [
+    "droplinked",
+    "inventory",
+    "agentic-commerce",
+    "aeo",
+    "geo",
+    "mcp",
+    "catalog",
+    "merchant-financing"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Droplinked Inventory AEO",
+    "shortDescription": "Inventory discovery and answer-engine briefs for agentic commerce.",
+    "longDescription": "Connect Codex to Droplinked's hosted Inventory MCP over Streamable HTTP. Discover public products and opted-in merchants, enrich results with shop and inventory-health context, and produce evidence-backed AEO/GEO comparisons or listicles. The live tool surface is read-only at packaging time; a user-supplied token may be required by the deployed handshake. It does not make financing decisions, place orders, or expose credentials.",
+    "developerName": "droplinked",
+    "category": "Tools & Integrations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "websiteURL": "https://droplinked.com",
+    "privacyPolicyURL": "https://droplinked.com/privacy",
+    "termsOfServiceURL": "https://droplinked.com/terms",
+    "defaultPrompt": [
+      "Find in-stock products for this customer brief with Droplinked.",
+      "Build an evidence-backed AEO product listicle from Droplinked inventory.",
+      "Audit a Droplinked shop's inventory health and catalog coverage."
+    ],
+    "brandColor": "#2EC99E",
+    "composerIcon": "./assets/icon.svg",
+    "logo": "./assets/icon.svg",
+    "screenshots": []
+  }
+}

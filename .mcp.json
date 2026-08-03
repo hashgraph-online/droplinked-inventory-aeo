@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "droplinked": {
+      "type": "http",
+      "url": "https://apiv3.droplinked.com/mcp",
+      "headers": {
+        "Authorization": "Bearer ${DROPLINKED_API_TOKEN}"
+      }
+    }
+  }
+}
